@@ -22,7 +22,7 @@ class Webhook {
         $this->webhook_body = [];
         $this->webhook_body["embeds"] = [];
         if($name) $this->webhook_body["username"] = $name;
-        if($avater_url) $this->webhook_body["avater_url"] = $avater_url;
+        if($avater_url) $this->webhook_body["avatar_url"] = $avater_url;
         if($content) $this->webhook_body["content"] = $content;
     }
 
