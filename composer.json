@@ -1,0 +1,23 @@
+{
+    "name": "ablaze/php-discord-webhook",
+    "description": "Discord Webhook sending library for PHP",
+    "type": "library",
+    "homepage": "https://github.com/Ablaze-MIRAI/php-discord-webhook",
+    "keywords": [
+        "discord",
+        "webhook"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ablaze\\PhpDiscordWebhook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "code-raisan",
+            "email": "yuri@rainyan.net"
+        }
+    ],
+    "require": {}
+}
